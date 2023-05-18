@@ -1,8 +1,9 @@
 {
   "version": 2,
   "functions": {
-    "api/server": {
-      "memory": 512
+    "api/*": {
+      "memory": 512,
+      "runtime": "vercel-node@1.10.0"
     }
   }
 }
