@@ -2,9 +2,9 @@
   "name": "express-server",
   "version": "1.0.0",
   "description": "Serverless function with WebSockets using Express.js on Vercel",
-  "main": "server.js",
+  "main": "api/server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/server.js"
   },
   "author": "Your Name",
   "license": "MIT",
